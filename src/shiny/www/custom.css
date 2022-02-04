@@ -1,0 +1,149 @@
+.container-fluid {
+  padding-right:0;
+  padding-left:0;
+}
+#edgaug_btn {
+  background-color: #367fa9;
+  padding: 0px;
+}
+#edgaug_logo {
+  max-width: 85%;
+}
+
+.skin-blue .main-sidebar {
+  font-size: 12px;
+  position: fixed; 
+  overflow: visible;
+}
+
+/* .skin-blue .main-sidebar .wrapper {
+    background-color: red;
+} */
+
+.main-header .logo {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.sidebar-menu table {
+  /* if search box = floaty, this gives initial vertical offset */
+  padding-top: 35px;
+}
+/* 2nd click on selected row will now NOT de-select it */
+table.dataTable tbody tr.selected {
+  pointer-events: none
+}
+
+/* "Search" labels in sidetab (*/
+.sidebar label {
+  color: #E4EAF7;
+  /*match the default background of sidebar*/
+  background-color: #222D32;
+
+  position: fixed;
+  transform: translateX(-100%);
+  /*50 on left = when search box jumps to right after filtering*/
+  padding: 5px 5px 5px 50px;
+  max-width: 100%;
+}
+label input[type=search] {
+  color: #222D32;
+  max-width: 140px;
+}
+
+#tenk_table {
+  height: 35vh !important; 
+  /* auto instead of scroll auto-imposes the scroll but if static aligning things easier*/
+  overflow-y: scroll;
+}
+#tenk_table thead {
+  display: none;
+}
+#tenk_table .filing_period {
+  font-size: 75%;
+  color: darkslategray;
+  font-weight: bold;
+  padding-top: 0;
+  padding-right: 0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#item_table {
+  height: 50vh !important; 
+  overflow-y: auto; /* add some scrollbars */
+}
+
+#item_table thead {
+  display: none;
+}
+#tenk_table tr, #item_table tr {
+  background-color: #e4eaf7;
+  cursor: pointer;
+}
+#tenk_table tr:hover, #item_table tr:hover {
+  background-color: #c7d7fa;
+}
+#item_table tr:odd {
+  background-color: aquamarine;
+}
+#item_table .display_label {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+/* the main stuff on the right */
+.content {
+  padding-left: 20px;
+}
+
+.panel-body {
+  padding: 10px 5px 5px;
+}
+#tenk_summary_expando {
+  display: flex;
+  flex-wrap: wrap;
+}
+#tenk_summary_expando_list {
+  margin-right: 20px;
+}
+table.expando_address tr {
+  min-height: 80px;
+  vertical-align: top;
+}
+#btns_select_ent_types {
+  margin-top: -15px;
+}
+.btn-control-checkboxes {
+  background-color: #c7d7fa;
+  color: darkslategray;
+  height: 22px;
+  padding-top: 0px;
+}
+#checkGroupEntities {
+  width: 100%;
+}
+/* #checkGroupEntities div {
+  display: flex;
+  flex-wrap: wrap;
+} */
+#entity_type_defs_table td {
+  font-size: 80%;
+  padding: 0;
+}
+#esg_type_defs_table td {
+  font-size: 80%;
+  padding: 0 10px 0 0;
+}
+#entity_type_defs_table thead, #esg_type_defs_table thead {
+  display: none;
+}
+.shiny-options-group label:first-child {
+  margin-left: 10px;
+}
+
+iframe.iffy {
+  height: 80vh;
+  width: 100%;
+}

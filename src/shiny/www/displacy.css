@@ -1,0 +1,208 @@
+/* begin with help of https://codepen.io/explosion/pen/ALxpQO */
+:root {
+     --color_env: lime;
+     --color_soc: orange;
+     --color_gov: cyan;
+     --color_person: #a6e22d;
+     --color_norp: #ef60b4;
+     --color_facility: #43c6fc;
+     --color_org: #43c6fc;
+     --color_gpe: #fd9720;
+     --color_loc: #fd9720;
+     --color_product: #a99dfb;
+     --color_event: #fc0;
+     --color_work_of_art: #fc0;
+     --color_law: #6ee4bc;
+     --color_language: #6ee4bc;
+     --color_date: #2fbbab;
+     --color_time: #2fbbab;
+     --color_percent: #bbb;
+     --color_money: #bbb;
+     --color_quantity: #bbb;
+     --color_ordincal: #bbb;
+     --color_cardinal: #bbb;
+}
+
+.entities {
+     line-height: 2; 
+}
+.no-highlight {
+     background: inherit !important;
+     color: rgb(66, 3, 16);
+}
+.no-highlight::after {
+     color: red;
+     /* can add any novel css defs*/
+     visibility: hidden;
+     /* ?need !important to override defined css attributes, alternative is separate class */
+     font-size: 0 !important;
+}
+
+[data-entity], [data-esg] {
+     padding: 0.25em 0.35em;
+     margin: 0px 0.25em;
+     line-height: 1;
+     display: inline-block;
+     border-radius: 0.25em;
+     border: 1px solid; 
+	 /*OCG: text-indent to correct for presence in parent element, in orig tenk*/
+	 text-indent: 0;
+}
+
+[data-entity]::after {
+     content: attr(data-entity);
+}
+[data-esg]::after {
+     content: attr(data-esg);
+}
+
+[data-entity]::after, [data-esg]::after {
+     box-sizing: border-box;
+     /* content: attr(data-entity); */
+     font-size: 0.6em;
+     line-height: 1;
+     padding: 0.35em;
+     border-radius: 0.35em;
+     text-transform: uppercase;
+     display: inline-block;
+     vertical-align: middle;
+     margin: 0px 0px 0.1rem 0.5rem;
+     font-weight:bold;
+     background: #fff;
+     font-family: "Calibre",Helvetica,Arial,sans-serif;
+}
+
+[value="env"]:checked + span,
+[data-esg][data-esg="env"] {
+     border-color: var(--color_env);
+     background: var(--color_env);
+}
+
+[value="soc"]:checked + span,
+[data-esg][data-esg="soc"] {
+     border-color: var(--color_soc);
+     background: var(--color_soc);
+}
+
+[value="gov"]:checked + span,
+[data-esg][data-esg="gov"] {
+     border-color: var(--color_gov);
+     background: var(--color_gov);
+}
+
+/* orig "person" pair from displacy.css = light color for entity, dark for ent-type superscript */
+/* [data-entity][data-entity="person"] {
+     background: rgba(166, 226, 45, 0.2);
+     border-color: rgb(166, 226, 45); 
+}
+[data-entity][data-entity="person"]::after {
+     background: rgb(166, 226, 45); 
+} */
+
+[value="person"]:checked + span,
+[data-entity][data-entity="person"] {
+     border-color: var(--color_person);
+     background: var(--color_person);
+}
+
+[value="norp"]:checked + span,
+[data-entity][data-entity="norp"] {
+     background: var(--color_norp); 
+     border-color: var(--color_norp); 
+}
+
+[value="facility"]:checked + span,
+[data-entity][data-entity="facility"] {
+     background: var(--color_facility);
+     border-color: var(--color_facility);; 
+}
+
+[value="org"]:checked + span,
+[data-entity][data-entity="org"] {
+     background: var(--color_org);
+     border-color: var(--color_org);; 
+}
+
+[value="gpe"]:checked + span,
+[data-entity][data-entity="gpe"] {
+     background: var(--color_gpe);
+     border-color: var(--color_gpe);
+}
+
+[value="loc"]:checked + span,
+[data-entity][data-entity="loc"] {
+     background: var(--color_loc);
+     border-color: var(--color_loc); 
+}
+
+[value="product"]:checked + span,
+[data-entity][data-entity="product"] {
+     background: var(--color_product);
+     border-color: var(--color_product);
+}
+
+[value="event"]:checked + span,
+[data-entity][data-entity="event"] {
+     background:var(--color_event);
+     border-color: var(--color_event);
+}
+
+[value="work_of_art"]:checked + span,
+[data-entity][data-entity="work_of_art"] {
+     background: var(--color_work_of_art);
+     border-color: var(--color_work_of_art);
+}
+
+[value="law"]:checked + span,
+[data-entity][data-entity="law"] {
+     background: var(--color_law);
+     border-color: var(--color_law);
+}
+
+[value="language"]:checked + span,
+[data-entity][data-entity="language"] {
+     background: var(--color_language);
+     border-color: var(--color_language);
+}
+
+[value="date"]:checked + span,
+[data-entity][data-entity="date"] {
+     background: var(--color_date);
+     border-color: var(--color_date); 
+}
+
+[value="time"]:checked + span,
+[data-entity][data-entity="time"] {
+     background: var(--color_time);
+     border-color: var(--color_time); 
+}
+
+[value="percent"]:checked + span,
+[data-entity][data-entity="percent"] {
+     background: var(--color_percent);
+     border-color: var(--color_percent);; 
+}
+
+[value="money"]:checked + span,
+[data-entity][data-entity="money"] {
+     background: var(--color_money);
+     border-color: var(--color_money); 
+}
+
+[value="quantity"]:checked + span,
+[data-entity][data-entity="quantity"] {
+     background: var(--color_quantity);
+     border-color: var(--color_quantity);
+}
+
+[value="ordinal"]:checked + span,
+[data-entity][data-entity="ordinal"] {
+     background: var(--color_ordincal);
+     border-color: var(--color_ordincal);
+}
+
+[value="cardinal"]:checked + span,
+[data-entity][data-entity="cardinal"] {
+     background: var(--color_cardinal);
+     border-color: var(--color_cardinal);
+}

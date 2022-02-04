@@ -1,0 +1,723 @@
+[
+    {
+        "key": "10K_ADXS_ADXSW-20191220",
+        "missing_items": [],
+        "company_name": "ADVAXIS, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1100397/000149315219019523/0001493152-19-019523-index.htm",
+        "filing_period": "2019-10-31",
+        "mailing_address": "305 COLLEGE ROAD EAST\nPRINCETON, NJ 08540",
+        "business_address": "305 COLLEGE ROAD EAST\nPRINCETON, NJ 08540\n732 545 1590"
+    },
+    {
+        "key": "10K_AEY-20191217",
+        "missing_items": [
+            "1a",
+            "1b",
+            "4",
+            "7a"
+        ],
+        "company_name": "ADDVANTAGE TECHNOLOGIES GROUP INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/874292/000144526019000064/0001445260-19-000064-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "1221 EAST HOUSTON STREET\nBROKEN ARROW OK 74012",
+        "business_address": "1221 E. HOUSTON\nBROKEN ARROW OK 74012\n9182519121"
+    },
+    {
+        "key": "10K_ALTX-20191226",
+        "missing_items": [],
+        "company_name": "ALTEX INDUSTRIES INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/775057/000109690619000440/0001096906-19-000440-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "PO BOX 1057\nBRECKENRIDGE CO 80424",
+        "business_address": "1560 BROADWAY\nSTE 2090\nDENVER CO 80202-5180\n3032659312"
+    },
+    {
+        "key": "10K_ANIX-20200109_pretty",
+        "missing_items": [],
+        "company_name": "ANIXA BIOSCIENCES INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/715446/000151316220000009/0001513162-20-000009-index.htm",
+        "filing_period": "2019-10-31",
+        "mailing_address": "3150 ALMADEN EXPRESSWAY, SUITE 250\nSAN JOSE CA 95118",
+        "business_address": "3150 ALMADEN EXPRESSWAY, SUITE 250\nSAN JOSE CA 95118\n408-708-9808"
+    },
+    {
+        "key": "10K_APDN-20191212",
+        "missing_items": [],
+        "company_name": "APPLIED DNA SCIENCES INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/744452/000110465919072186/0001104659-19-072186-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "50 HEALTH SCIENCES DRIVE\nSTONY BROOK NY 11790",
+        "business_address": "50 HEALTH SCIENCES DRIVE\nSTONY BROOK NY 11790\n631-240-8800"
+    },
+    {
+        "key": "10K_ARKR-20191217_pretty",
+        "missing_items": [],
+        "company_name": "ARK RESTAURANTS CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/779544/000077954419000035/0000779544-19-000035-index.htm",
+        "filing_period": "2019-09-28",
+        "mailing_address": "85 FIFTH AVENUE\nNEW YORK NY 10003-3019",
+        "business_address": "85 FIFTH AVENUE\nNEW YORK NY 10003-3019\n2122068800"
+    },
+    {
+        "key": "10K_ARTW-20200206",
+        "missing_items": [],
+        "company_name": "ARTS WAY MANUFACTURING CO INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/7623/000143774920001888/0001437749-20-001888-index.htm",
+        "filing_period": "2019-11-30",
+        "mailing_address": "P O BOX 288\nARMSTRONG IA 50514",
+        "business_address": "P O BOX 288\nARMSTRONG IA 50514\n7128643131"
+    },
+    {
+        "key": "10K_ASFI-20191220",
+        "missing_items": [
+            "1b",
+            "6",
+            "7a"
+        ],
+        "company_name": "ASTA FUNDING INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1001258/000143774919024736/0001437749-19-024736-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "210 SYLVAN AVE\nENGLEWOOD CLIFFS NJ 07632",
+        "business_address": "210 SYLVAN AVE\nENGLEWOOD CLIFFS NJ 07632\n201-567-5648"
+    },
+    {
+        "key": "10K_AVXL-20191216",
+        "missing_items": [],
+        "company_name": "ANAVEX LIFE SCIENCES CORP.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1314052/000173112219000784/0001731122-19-000784-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "51 W 52ND STREET,\n7TH FLOOR\nNEW YORK NY 10019-6163",
+        "business_address": "51 W 52ND STREET,\n7TH FLOOR\nNEW YORK NY 10019-6163\n800-689-3939"
+    },
+    {
+        "key": "10K_BASI-20191226",
+        "missing_items": [],
+        "company_name": "BIOANALYTICAL SYSTEMS INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/720154/000110465919076191/0001104659-19-076191-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "2701 KENT AVENUE\nWEST LAFAYETTE IN 47906-1382",
+        "business_address": "2701 KENT AVE\nWEST LAFAYETT IN 47906-1382\n3174634527"
+    },
+    {
+        "key": "10K_BDL-20191220",
+        "missing_items": [],
+        "company_name": "FLANIGANS ENTERPRISES INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/12040/000117494719001315/0001174947-19-001315-index.htm",
+        "filing_period": "2019-09-28",
+        "mailing_address": "5059 N.E. 18TH AVENUE\nFORT LAUDERDALE FL 33334",
+        "business_address": "5059 N.E. 18TH AVENUE\nFORT LAUDERDALE FL 33334\n954-377-1961"
+    },
+    {
+        "key": "10K_BLIN-20191227",
+        "missing_items": [],
+        "company_name": "BRIDGELINE DIGITAL, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1378590/000143774919024964/0001437749-19-024964-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "100 SUMMIT DRIVE, SUITE 916\nBURLINGTON MA 01803",
+        "business_address": "100 SUMMIT DRIVE, SUITE 916\nBURLINGTON MA 01803\n781 376 5555"
+    },
+    {
+        "key": "10K_BRID-20200124",
+        "missing_items": [],
+        "company_name": "BRIDGFORD FOODS CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/14177/000149315220001049/0001493152-20-001049-index.htm",
+        "filing_period": "2019-11-01",
+        "mailing_address": "1308 NORTH PATT STREET\nP O BOX 3773\nANAHEIM CA 92803",
+        "business_address": "1308 N PATT ST\nP O BOX 3773\nANAHEIM CA 92801\n7145265533"
+    },
+    {
+        "key": "10K_CCR-20200214_pretty",
+        "missing_items": [
+            "6",
+            "7a"
+        ],
+        "company_name": "CONSOL COAL RESOURCES LP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1637558/000163755820000005/0001637558-20-000005-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "1000 CONSOL ENERGY DRIVE\nSUITE 100\nCANONSBURG PA 15317",
+        "business_address": "1000 CONSOL ENERGY DRIVE\nSUITE 100\nCANONSBURG PA 15317\n724-485-3300"
+    },
+    {
+        "key": "10K_CETX-20200114",
+        "missing_items": [],
+        "company_name": "CEMTREX INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1435064/000149315220000576/0001493152-20-000576-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "276 GREENPOINT AVE. BLD 8 SUITE 208\nBROOKLYN NY 11222",
+        "business_address": "276 GREENPOINT AVE. BLD 8 SUITE 208\nBROOKLYN NY 11222\n631 756 9116"
+    },
+    {
+        "key": "10K_CNXM-20200210_pretty",
+        "missing_items": [],
+        "company_name": "CNX MIDSTREAM PARTNERS LP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1610418/000161041820000009/0001610418-20-000009-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "1000 CONSOL ENERGY DRIVE\nCANONSBURG PA 15317",
+        "business_address": "1000 CONSOL ENERGY DRIVE\nCANONSBURG PA 15317\n724-485-4000"
+    },
+    {
+        "key": "10K_CODA-20200128",
+        "missing_items": [
+            "7a",
+            "9b"
+        ],
+        "company_name": "CODA OCTOPUS GROUP, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1334325/000149315220001193/0001493152-20-001193-index.htm",
+        "filing_period": "2019-10-31",
+        "mailing_address": "3300 S HIAWASSEE RD.,\nSUITE 104-105\nORLANDO FL 32835",
+        "business_address": "3300 S HIAWASSEE RD.,\nSUITE 104-105\nORLANDO FL 32835\n801-973-9136"
+    },
+    {
+        "key": "10K_CRYO-20200114",
+        "missing_items": [],
+        "company_name": "AMERICAN CRYOSTEM CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1468679/000101905620000013/0001019056-20-000013-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "1 MERIDIAN ROAD\nEATONTOWN NJ 07724",
+        "business_address": "1 MERIDIAN ROAD\nEATONTOWN NJ 07724\n732-747-1007"
+    },
+    {
+        "key": "10K_CVM-20191216",
+        "missing_items": [
+            "1a",
+            "10",
+            "13",
+            "14"
+        ],
+        "company_name": "CEL SCI CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/725363/000165495419013971/0001654954-19-013971-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "8229 BOONE BLVD.\nSUITE 802\nVIENNA VA 22182",
+        "business_address": "8229 BOONE BLVD .\nSUITE 802\nVIENNA VA 22182\n7035069460"
+    },
+    {
+        "key": "10K_DJCO-20191212",
+        "missing_items": [],
+        "company_name": "DAILY JOURNAL CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/783412/000143774919024290/0001437749-19-024290-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "915 EAST FIRST STREET\nLOS ANGELES CA 90012",
+        "business_address": "915 EAST FIRST STREET\nLOS ANGELES CA 90012\n2132295300"
+    },
+    {
+        "key": "10K_DLHC_TSTFD_TSTF-20191211_pretty",
+        "missing_items": [],
+        "company_name": "DLH HOLDINGS CORP.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/785557/000162828019014978/0001628280-19-014978-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "3565 PIEDMONT ROAD, NE\nBUILDING 3, SUITE 700\nATLANTA GA 30305",
+        "business_address": "3565 PIEDMONT ROAD, NE\nBUILDING 3, SUITE 700\nATLANTA GA 30305\n8669521647"
+    },
+    {
+        "key": "10K_DWOG-20200113",
+        "missing_items": [
+            "1b"
+        ],
+        "company_name": "DEEP WELL OIL & GAS INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/869495/000121390020000866/0001213900-20-000866-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "SUITE 700\n10150 - 100 STREET\nEDMONTON A0 T5J  0P6",
+        "business_address": "SUITE 700\n10150 - 100 STREET\nEDMONTON A0 T5J  0P6\n(780) 409-8144"
+    },
+    {
+        "key": "10K_ECOM-20200212_pretty",
+        "missing_items": [],
+        "company_name": "CHANNELADVISOR CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1169652/000116965220000008/0001169652-20-000008-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "3025 CARRINGTON MILL BOULEVARD\nMORRISVILLE NC 27560",
+        "business_address": "3025 CARRINGTON MILL BOULEVARD\nMORRISVILLE NC 27560\n919-228-4700"
+    },
+    {
+        "key": "10K_ENTI-20191219_pretty",
+        "missing_items": [],
+        "company_name": "ENTEST GROUP, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1449447/000164033419002635/0001640334-19-002635-index.htm",
+        "filing_period": "2019-08-31",
+        "mailing_address": "NO. 911 BAOAN BOOK CITY, XINQIAO STREET\nCENTRAL ROAD, BAOAN DISTRICT\nSHENZHEN F4 00000",
+        "business_address": "NO. 911 BAOAN BOOK CITY, XINQIAO STREET\nCENTRAL ROAD, BAOAN DISTRICT\nSHENZHEN F4 00000\n86-13709631109"
+    },
+    {
+        "key": "10K_EVLO-20200214_pretty",
+        "missing_items": [],
+        "company_name": "EVELO BIOSCIENCES, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1694665/000169466520000017/0001694665-20-000017-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "620 MEMORIAL DRIVE\nSUITE 200 WEST\nCAMBRIDGE MA 02139",
+        "business_address": "620 MEMORIAL DRIVE\nSUITE 200 WEST\nCAMBRIDGE MA 02139\n617 870 8281"
+    },
+    {
+        "key": "10K_FORD-20191227",
+        "missing_items": [],
+        "company_name": "FORWARD INDUSTRIES, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/38264/000168316819004079/0001683168-19-004079-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "477 ROSEMARY AVE.\nSUITE 219\nWEST PALM BEACH FL 33401",
+        "business_address": "477 ROSEMARY AVE.\nSUITE 219\nWEST PALM BEACH FL 33401\n561-465-0071"
+    },
+    {
+        "key": "10K_FREVS-20200121",
+        "missing_items": [],
+        "company_name": "FIRST REAL ESTATE INVESTMENT TRUST OF NEW JERSEY",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/36840/000117494720000048/0001174947-20-000048-index.htm",
+        "filing_period": "2019-10-31",
+        "mailing_address": "P O BOX 667\n505 MAIN STREET\nHACKENSACK NJ 07602",
+        "business_address": "505 MAIN ST\nP O BOX 667\nHACKENSACK NJ 07602\n2014886400"
+    },
+    {
+        "key": "10K_GENC-20191211",
+        "missing_items": [
+            "6",
+            "7a"
+        ],
+        "company_name": "GENCOR INDUSTRIES INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/64472/000119312519310985/0001193125-19-310985-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "5201 N ORANGE BLOSSOM\nORLANDO FL 32810",
+        "business_address": "5201 N ORANGE BLOSSOM TRAIL\nORLANDO FL 32810\n4072906000"
+    },
+    {
+        "key": "10K_GHAV-20200210",
+        "missing_items": [],
+        "company_name": "GRAND HAVANA INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1514113/000126493120000015/0001264931-20-000015-index.htm",
+        "filing_period": "2018-12-31",
+        "mailing_address": "407 LINCOLN RD\nSTE 2A\nMIAMI BEACH FL 33139",
+        "business_address": "407 LINCOLN RD\nSTE 2A\nMIAMI BEACH FL 33139\n305-297-2207"
+    },
+    {
+        "key": "10K_GIG-20191211",
+        "missing_items": [],
+        "company_name": "GIGCAPITAL, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1719489/000156459019045763/0001564590-19-045763-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "VIA MARCO D'AVIANO, 2, 20131 MILANO MI\nMILAN L6 94303",
+        "business_address": "VIA MARCO D'AVIANO, 2, 20131 MILANO MI\nMILAN L6 94303\n39 02 288 5841"
+    },
+    {
+        "key": "10K_GNCA-20200213_pretty",
+        "missing_items": [
+            "11"
+        ],
+        "company_name": "GENOCEA BIOSCIENCES, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1457612/000145761220000015/0001457612-20-000015-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "100 ACORN PARK DRIVE\nCAMBRIDGE MA 02140",
+        "business_address": "100 ACORN PARK DRIVE\nCAMBRIDGE MA 02140\n617-876-8191"
+    },
+    {
+        "key": "10K_GSTX-20200121_pretty",
+        "missing_items": [],
+        "company_name": "GRAPHENE & SOLAR TECHNOLOGIES LTD",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1497649/000164033420000125/0001640334-20-000125-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "433 NORTH CAMDEN DRIVE\nSUITE 600\nBEVERLY HILLS CA 90212",
+        "business_address": "433 NORTH CAMDEN DRIVE\nSUITE 600\nBEVERLY HILLS CA 90212\n(310) 887-1477"
+    },
+    {
+        "key": "10K_GTIM-20191220",
+        "missing_items": [],
+        "company_name": "GOOD TIMES RESTAURANTS INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/825324/000121465919007819/0001214659-19-007819-index.htm",
+        "filing_period": "2019-09-24",
+        "mailing_address": "141 UNION BOULEVARD\n400\nLAKEWOOD CO 80228",
+        "business_address": "141 UNION BOULEVARD\n400\nLAKEWOOD CO 80228\n303-384-1440"
+    },
+    {
+        "key": "10K_IBAL-20200129",
+        "missing_items": [
+            "1a",
+            "1b",
+            "4",
+            "6",
+            "7a"
+        ],
+        "company_name": "INTERNATIONAL BALER CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/781902/000160706220000032/0001607062-20-000032-index.htm",
+        "filing_period": "2019-10-31",
+        "mailing_address": "5400 RIO GRANDE AVENUE\nJACKSONVILLE FL 32205",
+        "business_address": "5400 RIO GRANDE AVE\nJACKSONVILLE FL 32205\n8002319286"
+    },
+    {
+        "key": "10K_IMKTA-20191210",
+        "missing_items": [
+            "4",
+            "9"
+        ],
+        "company_name": "INGLES MARKETS INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/50493/000005049319000017/0000050493-19-000017-index.htm",
+        "filing_period": "2019-09-28",
+        "mailing_address": "P O BOX 6676\nASHEVILLE NC 28816",
+        "business_address": "PO BOX 6676\nASHEVILLE NC 28816\n828-669-2941"
+    },
+    {
+        "key": "10K_ISSC-20191223",
+        "missing_items": [],
+        "company_name": "INNOVATIVE SOLUTIONS & SUPPORT INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/836690/000110465919075583/0001104659-19-075583-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "420 LAPP ROAD\nMALVERN PA 19355",
+        "business_address": "420 LAPP RD\nMALVERN PA 19355\n6108899898"
+    },
+    {
+        "key": "10K_JANL-20200128",
+        "missing_items": [],
+        "company_name": "JANEL CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1133062/000114036120001614/0001140361-20-001614-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "303 MERRICK ROAD, SUITE 400\nLYNBROOK NY 11563",
+        "business_address": "303 MERRICK ROAD, SUITE 400\nLYNBROOK NY 11563\n718-527-3800"
+    },
+    {
+        "key": "10K_JOB-20191223_pretty",
+        "missing_items": [],
+        "company_name": "GEE GROUP INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/40570/000147793219007284/0001477932-19-007284-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "7751 BELFORT PARKWAY\nSUITE 150\nJACKSONVILLE FL 32256",
+        "business_address": "7751 BELFORT PARKWAY\nSUITE 150\nJACKSONVILLE FL 32256\n904-512-7504"
+    },
+    {
+        "key": "10K_JVA-20200129",
+        "missing_items": [],
+        "company_name": "COFFEE HOLDING CO INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1007019/000149315220001327/0001493152-20-001327-index.htm",
+        "filing_period": "2019-10-31",
+        "mailing_address": "3475 VICTORY BLVD\nSTATEN ISLAND NY 10314",
+        "business_address": "3475 VICTORY BLVD\nSTATEN ISLAND NY 10314\n7188320800"
+    },
+    {
+        "key": "10K_LBRDB_LBRDK_LBRDA-20200203_pretty",
+        "missing_items": [],
+        "company_name": "LIBERTY BROADBAND CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1611983/000155837020000441/0001558370-20-000441-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "12300 LIBERTY BLVD\nENGLEWOOD CO 80112",
+        "business_address": "12300 LIBERTY BLVD\nENGLEWOOD CO 80112\n720-875-5400"
+    },
+    {
+        "key": "10K_LLNW-20200130_pretty",
+        "missing_items": [],
+        "company_name": "LIMELIGHT NETWORKS, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1391127/000139112720000015/0001391127-20-000015-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "1465 NORTH SCOTTSDALE ROAD\nSUITE 400\nSCOTTSDALE AZ 85257",
+        "business_address": "1465 NORTH SCOTTSDALE ROAD\nSUITE 400\nSCOTTSDALE AZ 85257\n602-850-5000"
+    },
+    {
+        "key": "10K_LRAD-20191209",
+        "missing_items": [],
+        "company_name": "LRAD CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/924383/000143774919024099/0001437749-19-024099-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "16262 WEST BERNARDO DRIVE\nSAN DIEGO CA 92127",
+        "business_address": "16262 WEST BERNARDO DRIVE\nSAN DIEGO CA 92127\n858-676-1112"
+    },
+    {
+        "key": "10K_MGYR-20191219",
+        "missing_items": [],
+        "company_name": "MAGYAR BANCORP, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1337068/000117494719001311/0001174947-19-001311-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "400 SOMERSET STREET\nNEW BRUNSWICK NJ 08901",
+        "business_address": "400 SOMERSET STREET\nNEW BRUNSWICK NJ 08901\n732-249-2438"
+    },
+    {
+        "key": "10K_MNOV-20200213",
+        "missing_items": [],
+        "company_name": "MEDICINOVA INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1226616/000156459020004605/0001564590-20-004605-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "4275 EXECUTIVE SQUARE\nSUITE 300\nLA JOLLA CA 92037",
+        "business_address": "4275 EXECUTIVE SQUARE\nSUITE 300\nLA JOLLA CA 92037\n858-373-1500"
+    },
+    {
+        "key": "10K_MOXC-20200114",
+        "missing_items": [],
+        "company_name": "MOXIAN, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1516805/000149315220000570/0001493152-20-000570-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "228 PARK AVE SOUTH, #82217\nNEW YORK NY 10003",
+        "business_address": "228 PARK AVE SOUTH, #82217\nNEW YORK NY 10003\n86 (0)755-66803251"
+    },
+    {
+        "key": "10K_MPAD-20200212",
+        "missing_items": [],
+        "company_name": "MICROPAC INDUSTRIES INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/65759/000101054920000010/0001010549-20-000010-index.htm",
+        "filing_period": "2019-11-30",
+        "mailing_address": "905 E WALNUT\nGARLAND TX 75040",
+        "business_address": "905 E WALNUT ST\nGARLAND TX 75040\n2142723571"
+    },
+    {
+        "key": "10K_NBSE-20200110",
+        "missing_items": [],
+        "company_name": "NEUBASE THERAPEUTICS, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1173281/000110465920003043/0001104659-20-003043-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "700 TECHNOLOGY DRIVE\nPITTSBURGH PA 15219",
+        "business_address": "700 TECHNOLOGY DRIVE\nPITTSBURGH PA 15219\n6464501790"
+    },
+    {
+        "key": "10K_NEBU-20200214",
+        "missing_items": [],
+        "company_name": "NEBULA ACQUISITION CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1720353/000121390020003966/0001213900-20-003966-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "FOUR EMBARCADERO CENTER, SUITE 2350\nSAN FRANCISCO CA 94111",
+        "business_address": "FOUR EMBARCADERO CENTER, SUITE 2350\nSAN FRANCISCO CA 94111\n(513) 618-7161"
+    },
+    {
+        "key": "10K_NFLX-20200129_pretty",
+        "missing_items": [],
+        "company_name": "NETFLIX INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528020000040/0001065280-20-000040-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "100 WINCHESTER CIRCLE\nLOS GATOS CA 95032-7606",
+        "business_address": "100 WINCHESTER CIRCLE\n.\nLOS GATOS CA 95032\n408-540-3700"
+    },
+    {
+        "key": "10K_NGVC-20191205",
+        "missing_items": [],
+        "company_name": "NATURAL GROCERS BY VITAMIN COTTAGE, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1547459/000143774919023923/0001437749-19-023923-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "12612 W. ALAMEDA PARKWAY\nLAKEWOOD CO 80228",
+        "business_address": "12612 W. ALAMEDA PARKWAY\nLAKEWOOD CO 80228\n877-986-4600"
+    },
+    {
+        "key": "10K_NURO_NUROW_NUROD-20200127_pretty",
+        "missing_items": [
+            "7a"
+        ],
+        "company_name": "NEUROMETRIX, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1289850/000162828020000575/0001628280-20-000575-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "1000 WINTER STREET\nWALTHAM MA 02451",
+        "business_address": "1000 WINTER STREET\nWALTHAM MA 02451\n(781) 890-9989"
+    },
+    {
+        "key": "10K_OCC-20200127",
+        "missing_items": [],
+        "company_name": "OPTICAL CABLE CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1000230/000143774920001224/0001437749-20-001224-index.htm",
+        "filing_period": "2019-10-31",
+        "mailing_address": "5290 CONCOURSE DRIVE\nROANOKE VA 24019",
+        "business_address": "5290 CONCOURSE DR\nROANOKE VA 24019\n5402650690"
+    },
+    {
+        "key": "10K_OTLK-20191219",
+        "missing_items": [],
+        "company_name": "OUTLOOK THERAPEUTICS, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1649989/000110465919074095/0001104659-19-074095-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "7 CLARKE DRIVE\nCRANBURY NJ 08512",
+        "business_address": "7 CLARKE DRIVE\nCRANBURY NJ 08512\n6096193990"
+    },
+    {
+        "key": "10K_PAAC_PAACU_PAACR-20191230",
+        "missing_items": [],
+        "company_name": "PROFICIENT ALPHA ACQUISITION CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1764711/000126493119000200/0001264931-19-000200-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "40 WALL STREET\n29TH FLOOR\nNEW YORK NY 10005",
+        "business_address": "40 WALL STREET\n29TH FLOOR\nNEW YORK NY 10005\n917-289-0932"
+    },
+    {
+        "key": "10K_PATI_PATIV-20191211",
+        "missing_items": [],
+        "company_name": "PATRIOT TRANSPORTATION HOLDING, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1616741/000084405919000015/0000844059-19-000015-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "200 W. FORSYTH ST.\n7TH FLOOR\nJACKSONVILLE FL 32202",
+        "business_address": "200 W. FORSYTH ST.\n7TH FLOOR\nJACKSONVILLE FL 32202\n(877) 704-1776"
+    },
+    {
+        "key": "10K_PIXY-20191213_pretty",
+        "missing_items": [],
+        "company_name": "SHIFTPIXY, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1675634/000147793219007084/0001477932-19-007084-index.htm",
+        "filing_period": "2019-08-31",
+        "mailing_address": "1 VENTURE\nSUITE 150\nIRVINE CA 92618",
+        "business_address": "1 VENTURE\nSUITE 150\nIRVINE CA 92618\n888-798-9100"
+    },
+    {
+        "key": "10K_POWL-20191205_pretty",
+        "missing_items": [],
+        "company_name": "POWELL INDUSTRIES INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/80420/000008042019000039/0000080420-19-000039-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "8550 MOSLEY DRIVE P O BOX 12818\n8550 MOSLEY DRIVE P O BOX 12818\nHOUSTON TX 77075",
+        "business_address": "8550 MOSLEY DR\nPOST OFFICE BOX 12818\nHOUSTON TX 77075\n7139446900"
+    },
+    {
+        "key": "10K_PSSR-20200127",
+        "missing_items": [],
+        "company_name": "PASSUR AEROSPACE, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/225628/000109690620000040/0001096906-20-000040-index.htm",
+        "filing_period": "2019-10-31",
+        "mailing_address": "ONE LANDMARK SQUARE\nSTE. 1900\nSTAMFORD CT 06901",
+        "business_address": "ONE LANDMARK SQUARE\nSTE. 1900\nSTAMFORD CT 06901\n2036224086"
+    },
+    {
+        "key": "10K_RFIL-20191220",
+        "missing_items": [
+            "1a",
+            "7a",
+            "9b"
+        ],
+        "company_name": "R F INDUSTRIES LTD",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/740664/000110465919074978/0001104659-19-074978-index.htm",
+        "filing_period": "2019-10-31",
+        "mailing_address": "7620 MIRAMAR RD #4100\n7620 MIRAMAR RD #4100\nSAN DIEGO CA 92126-4202",
+        "business_address": "7610 MIRAMAR RD\nBLDG 6000\nSAN DIEGO CA 92126-2313\n858-549-6340"
+    },
+    {
+        "key": "10K_RHI-20200214_pretty",
+        "missing_items": [
+            "10",
+            "11",
+            "12",
+            "13",
+            "14"
+        ],
+        "company_name": "ROBERT HALF INTERNATIONAL INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/315213/000031521320000029/0000315213-20-000029-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "2884 SAND HILL ROAD\nSTE 200\nMENLO PARK CA 94025",
+        "business_address": "2884 SAND HILL RD\nSTE 200\nMENLO PARK CA 94025\n6502346000"
+    },
+    {
+        "key": "10K_RICK-20200213",
+        "missing_items": [],
+        "company_name": "RCI HOSPITALITY HOLDINGS, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/935419/000149315220002216/0001493152-20-002216-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "10737 CUTTEN ROAD\nHOUSTON TX 77066",
+        "business_address": "10737 CUTTEN ROAD\nHOUSTON TX 77066\n2813976730"
+    },
+    {
+        "key": "10K_RWLS-20191209",
+        "missing_items": [],
+        "company_name": "TX HOLDINGS, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1133798/000143774919024029/0001437749-19-024029-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "P. O. BOX 1425\nASHLAND KY 41105",
+        "business_address": "P. O. BOX 1425\nASHLAND KY 41105\n606-928-1131"
+    },
+    {
+        "key": "10K_SAFM-20191219_pretty",
+        "missing_items": [],
+        "company_name": "SANDERSON FARMS INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/812128/000081212819000017/0000812128-19-000017-index.htm",
+        "filing_period": "2019-10-31",
+        "mailing_address": "225 N 13TH AVENUE\nPO BOX 988\nLAUREL MS 39441",
+        "business_address": "225 N 13TH AVE\nPO BOX 988\nLAUREL MS 39441\n6016494030"
+    },
+    {
+        "key": "10K_SCCI-20200205",
+        "missing_items": [],
+        "company_name": "SCI ENGINEERED MATERIALS, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/830616/000110465920011013/0001104659-20-011013-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "2839 CHARTER STREET\nCOLUMBUS OH 43228",
+        "business_address": "2839 CHARTER STREET\nCOLUMBUS OH 43228\n6144860261"
+    },
+    {
+        "key": "10K_SCRA-20200110",
+        "missing_items": [
+            "1b",
+            "4",
+            "6"
+        ],
+        "company_name": "TRACK GROUP, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1045942/000165495420000262/0001654954-20-000262-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "200 E. 5TH AVENUE SUITE 100\nNAPERVILLE IL 60563",
+        "business_address": "200 E. 5TH AVENUE SUITE 100\nNAPERVILLE IL 60563\n866-260-2010"
+    },
+    {
+        "key": "10K_SCRHE_SCRH-20200131",
+        "missing_items": [],
+        "company_name": "SCORES HOLDING CO INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/831489/000110465920009370/0001104659-20-009370-index.htm",
+        "filing_period": "2018-12-31",
+        "mailing_address": "533-535 WEST 27TH STREET\nSUITE\nNEW YORK NY 10001",
+        "business_address": "150 EAST 58TH STREET\nSUITE\nNEW YORK NY 10022\n212-421-8480"
+    },
+    {
+        "key": "10K_SVBL-20200113",
+        "missing_items": [
+            "2",
+            "9b"
+        ],
+        "company_name": "SILVER BULL RESOURCES, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1031093/000107997320000013/0001079973-20-000013-index.htm",
+        "filing_period": "2019-10-31",
+        "mailing_address": "777 DUNSMUIR STREET, SUITE 1610\nVANCOUVER A1 V7Y 1K4",
+        "business_address": "777 DUNSMUIR STREET, SUITE 1610\nVANCOUVER A1 V7Y 1K4\n604-687-5800"
+    },
+    {
+        "key": "10K_TCCO-20191213",
+        "missing_items": [],
+        "company_name": "TECHNICAL COMMUNICATIONS CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/96699/000117184319008104/0001171843-19-008104-index.htm",
+        "filing_period": "2019-09-28",
+        "mailing_address": "100 DOMINO DRIVE\nCONCORD MA 01742-2892",
+        "business_address": "100 DOMINO DR\nCONCORD MA 01742\n9782875100"
+    },
+    {
+        "key": "10K_TLR-20200110",
+        "missing_items": [],
+        "company_name": "TIMBERLINE RESOURCES CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1288750/000105291820000008/0001052918-20-000008-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "101 EAST LAKESIDE AVENUE\nCOEUR D'ALENE ID 83814",
+        "business_address": "101 EAST LAKESIDE AVENUE\nCOEUR D'ALENE ID 83814\n(208) 664-4859"
+    },
+    {
+        "key": "10K_ULBI-20200206",
+        "missing_items": [],
+        "company_name": "ULTRALIFE CORP",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/875657/000143774920001842/0001437749-20-001842-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "2000 TECHNOLOGY PARKWAY\nNEWARK NY 14513",
+        "business_address": "2000 TECHNOLOGY PARKWAY\nNEWARK NY 14513\n3153327100"
+    },
+    {
+        "key": "10K_VERU-20191212",
+        "missing_items": [],
+        "company_name": "VERU INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/863894/000086389419000014/0000863894-19-000014-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "48 NW 25TH STREET\nSUITE 102\nMIAMI FL 33127",
+        "business_address": "48 NW 25TH STREET\nSUITE 102\nMIAMI FL 33127\n3125959123"
+    },
+    {
+        "key": "10K_VRSN-20200214_pretty",
+        "missing_items": [],
+        "company_name": "VERISIGN INC/CA",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1014473/000101447320000006/0001014473-20-000006-index.htm",
+        "filing_period": "2019-12-31",
+        "mailing_address": "12061 BLUEMONT WAY\nATTN: GENERAL COUNSEL\nRESTON VA 20190",
+        "business_address": "12061 BLUEMONT WAY\nATTN: GENERAL COUNSEL\nRESTON VA 20190\n7039483200"
+    },
+    {
+        "key": "10K_YCBD-20191218",
+        "missing_items": [],
+        "company_name": "CBDMD, INC.",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1644903/000165495419014052/0001654954-19-014052-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "8845 RED OAK BOULEVARD\nCHARLOTTE NC 28217",
+        "business_address": "8845 RED OAK BOULEVARD\nCHARLOTTE NC 28217\n704-445-3060"
+    },
+    {
+        "key": "10K_YUMM-20200114",
+        "missing_items": [],
+        "company_name": "YUMMIES INC",
+        "html_filing_summary_url": "https://www.sec.gov/Archives/edgar/data/1073748/000121390020000966/0001213900-20-000966-index.htm",
+        "filing_period": "2019-09-30",
+        "mailing_address": "1981 EAST MURRAY HOLLADAY ROAD\nSUITE 100\nSALT LAKE CITY UT 84117",
+        "business_address": "1981 EAST MURRAY HOLLADAY ROAD\nSUITE 100\nSALT LAKE CITY UT 84117\n8012729294"
+    }
+]
