@@ -28,3 +28,13 @@ Additionally, two of the Items have the option of highlighting certain text, act
 
 </br>
 &#8224; turns out default spaCy models, e.g. `en_core_web_md` , do NOT produce very good NER results when passed typical 10-k text, who knew there were so many `Work Of Art`s referenced there :). A better model is on the future-thing list.  
+
+</br>
+
+---
+</br>
+</br>
+</br>
+<p align="center">
+  <img src="res/browse_quick.gif" alt="Item 7 text with NER highlighting" width="70%">
+</p>
