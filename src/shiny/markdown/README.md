@@ -1,15 +1,4 @@
-# EDGAugmentor
-
-## the Shiny web app bit:
-
-</br>
-
-IRL  
-http://owenG.net/EDGAugmentor/
-
-</br>
-
-### words
+# About
 
 Project began with the idea of doing 'NLP stuff' based on text from specific Items within 10-k filings. Which rather quickly brought up the issue of identifying the begin/end of each Item and extracting relevant text. Which rather slowly led to many iterations of regex experimentations coinciding with the idea of keeping the relatively pretty HTML formatting (and charts, tables etc.) of a given 10-k while also doing 'NLP stuff' on the underlying text as opportunity presented. That seemed to mostly work but was difficult to QA, i.e. to know that a given extraction had correctly identified the full text for that Item. Highlighting the sections via CSS worked well enough on one-off situations but it seemed something more app-like would be helpful, and so was born the Shiny/R web app now known as `EDGAugmentor`. At this point in time EDGAugmentor's theoretical first-purpose is to help in the human review of 10-k filed with the SEC.
 

@@ -1,0 +1,86 @@
+/* repeat 5 color defs, see edgaug_10k_PALER.css for less obtrusive shading 
+   append alpha = 30 to _item hex codes, to make mostly transparent */
+.edgaug_item1 {
+    color: navy;
+    background-color: #ffb3ba30;
+}
+.edgaug_item1a {
+    color: navy;
+    background-color: #ffdfba30;
+}
+.edgaug_item1b {
+    color: navy;
+    background-color: #ffffba30;
+}
+.edgaug_item2 {
+    color: navy;
+    background-color: #baffc930;
+}
+
+
+.edgaug_item3 {
+    color: navy;
+    background-color: #bae1ff30;
+}
+.edgaug_item4 {
+    color: navy;
+    background-color: #ffb3ba30;
+}
+.edgaug_item5 {
+    color: navy;
+    background-color: #ffdfba30;
+}
+.edgaug_item6 {
+    color: navy;
+    background-color: #ffffba30;
+}
+
+
+.edgaug_item7 {
+    color: navy;
+    background-color: #baffc930;
+}
+.edgaug_item7a {
+    color: navy;
+    background-color: #bae1ff30;
+}
+.edgaug_item8 {
+    color: navy;
+    background-color: #ffb3ba30;
+}
+.edgaug_item9 {
+    color: navy;
+    background-color: #ffdfba30;
+}
+.edgaug_item9a {
+    color: navy;
+    background-color: #ffffba30;
+}
+.edgaug_item9b {
+    color: navy;
+    background-color: #baffc930;
+}
+.edgaug_item10 {
+    color: navy;
+    background-color: #bae1ff30;
+}
+.edgaug_item11 {
+    color: navy;
+    background-color: #ffb3ba30;
+}
+.edgaug_item12 {
+    color: navy;
+    background-color: #ffdfba30;
+}
+.edgaug_item13 {
+    color: navy;
+    background-color: #ffffba30;
+}
+.edgaug_item14 {
+    color: navy;
+    background-color: #baffc930;
+}
+.edgaug_item15 {
+    color: navy;
+    background-color: #bae1ff30;
+}
