@@ -1,10 +1,14 @@
+<p align="center">
+  <img src="res/logo2.png" alt="EDGAugmentor logo" width="20%">
+</p>
+
 # EDGAugmentor
 
 ## the Shiny web app bit:
 
 </br>
 
-IRL  
+### IRL  
 http://owenG.net/EDGAugmentor/
 
 </br>
@@ -35,6 +39,25 @@ Additionally, two of the Items have the option of highlighting certain text, act
 </br>
 </br>
 </br>
+
+### general browsing
+
+</br>
+
 <p align="center">
   <img src="res/browse_quick.gif" alt="Item 7 text with NER highlighting" width="70%">
 </p>
+</br>
+
+---
+
+</br>
+
+### named entity highlighting
+
+</br>
+
+<p align="center">
+  <img src="res/ner.gif" alt="Item 7 text with NER highlighting" width="70%">
+</p>
+
