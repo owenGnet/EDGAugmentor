@@ -36,3 +36,7 @@ po/*~
 rsconnect/
 # misc
 Rando.R
+# allow in only a sample of html
+*.html
+!10K_ALTX*.html
+!10K_AVXL*.html
