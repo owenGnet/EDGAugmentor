@@ -173,11 +173,10 @@ shinyServer(function(input, output, session) {
                                  selected = NULL)
     })
 
-    update_highlight <- Vectorize(function(data_value, data_type, do_hide) {
-        # print(glue("{ent_type} do_hide: {do_hide}"))
+    update_highlight <- Vectorize(function(data_value, data_type, num_changes = 0) {
         js$updateHighlight(data_value = data_value,
                             data_type = data_type,
-                            hide_highlighting = do_hide,
+                            num_changes = num_changes,
                             run_count = 1)
     }, vectorize.args = "data_value")
 
@@ -199,17 +198,26 @@ shinyServer(function(input, output, session) {
                 data_type <- "esg"
             }
             unchecked_data_types <- setdiff(available_choices, check_group)
-            print(glue("unchecked_data_types: {glue_collapse(unchecked_data_types, sep=',')}"))
+            # print(glue("unchecked_data_types: {glue_collapse(unchecked_data_types, sep=',')}"))
+            newly_unchecked_data_types <- setdiff(rv_checked_types(), check_group)
+            static_unchecked_data_types <- setdiff(unchecked_data_types, newly_unchecked_data_types)
+            print(glue("static_unchecked_data_types: {glue_collapse(static_unchecked_data_types, sep=',')}"))
+            print(glue("newly_UNchecked_data_types: {glue_collapse(newly_unchecked_data_types, sep=',')}"))
             newly_checked_data_types <- setdiff(check_group, rv_checked_types())
             print(glue("newly_checked_data_types: {glue_collapse(newly_checked_data_types, sep=',')}"))
             # Joe Cheng comment re onFlushed @ https://github.com/rstudio/shiny/issues/3348
             session$onFlushed(function() {
-                unchecked_data_types %>% update_highlight(data_type, TRUE)
-                newly_checked_data_types %>% update_highlight(data_type, FALSE)
+                static_unchecked_data_types %>% update_highlight(data_type)
+                newly_unchecked_data_types %>% update_highlight(data_type, length(newly_unchecked_data_types) * -1)
+                newly_checked_data_types %>% update_highlight(data_type, length(newly_checked_data_types))
                 js$breaker()
             })
             rv_checked_types(check_group)
          }
+    })
+    
+    observe({
+        showNotification(glue("{input$updateHighlightMsg}"), type = "message", duration = 3, id = "highlightMsg")
     })
 
     handle_element_showage <- function(iframe_src, show_marked) {

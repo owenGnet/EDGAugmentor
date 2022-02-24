@@ -30,9 +30,9 @@ function sleep(ms) {
  * params arg with three required attributes
  * @param {string} data_value - possible data-entity value, e.g. "org" or "date"
  * @param {string} data_type - possible data-* element, e.g. "entity" for data-entity attribute
- * @param {bool} hide_highlighting - True if text highlighting is being suppressed, False to make visible
+ * @param {number} num_changes - total number of checkboxes changed (may be > 1 if Select All/None clicked)
  */
-shinyjs.updateHighlight = function(params){
+ shinyjs.updateHighlight = function(params){
   let frameObj = document.getElementById("tenkFrame");
   if(frameObj === null) {
     console.warn("TODO: iframe not found initially? investigate as appropriate");
@@ -51,14 +51,24 @@ shinyjs.updateHighlight = function(params){
       // frameObj.addEventListener('load', function(){console.log("loaded")} );
       let selector = `[data-${params.data_type}="${params.data_value}"]`;
       let all_of_type = frameObj.contentWindow.document.querySelectorAll(selector);
-      console.log(`${all_of_type.length} items OF type ${params.data_value} to be no-highlight=${params.hide_highlighting}`)
+      prefix = params.num_changes < 1 ? 'un' : ''
+      abs_num_changed = Math.abs(params.num_changes)
+      if (params.num_changes != 0) {
+        let msg = `Multiple types ${prefix}marked, total: ${abs_num_changed}`
+        if (Math.abs(params.num_changes) == 1) {
+          msg = `${all_of_type.length} ${params.data_value.toUpperCase()} ${prefix}marked`;
+        }
+        Shiny.onInputChange("updateHighlightMsg", msg);
+        console.log(`${all_of_type.length} items OF type ${params.data_value} to be ${prefix}marked`)
+      }
       all_of_type.forEach(function(dtype) {
-        if (params.hide_highlighting === true) {
-          dtype.classList.add('no-highlight');
+        if (params.num_changes < 1) {
+            dtype.classList.add('no-highlight');
         } else {
           dtype.classList.remove('no-highlight');
         }
       });
     }
   }
+  return 55;
 }
