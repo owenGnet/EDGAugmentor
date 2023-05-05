@@ -1,0 +1,23 @@
+name: deploy_prod_on_push_to_main
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run single-line script
+      run: echo deploying EDGAug to ${{vars.SHINYAPPS_PROD_NAME}}
+    - uses: actions/checkout@v3
+    - name: Build image
+      # run: docker build -t main_branch -f Dockerfile.deploy.renv .
+      run: docker build -t main_branch -f Dockerfile.deploy.renv .
+    - name: execute
+      run: >
+        docker run
+        -e SHINY_ACC_NAME=${{ secrets.SHINYAPPS_ACC_NAME }}
+        -e TOKEN=${{secrets.SHINYAPPS_TOKEN}}
+        -e SECRET=${{secrets.SHINYAPPS_SECRET}}
+        -e MASTERNAME=${{vars.SHINYAPPS_PROD_NAME}}
+        main_branch

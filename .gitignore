@@ -15,6 +15,7 @@
 /*.Rcheck/
 # RStudio files
 .Rproj.user/
+.vscode/
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
@@ -36,3 +37,7 @@ po/*~
 rsconnect/
 # misc
 Rando.R
+# uncomment below allow in only a sample of html
+# *.html
+# !10K_ALTX*.html
+# !10K_AVXL*.html

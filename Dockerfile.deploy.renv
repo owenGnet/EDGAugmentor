@@ -1,0 +1,10 @@
+FROM rocker/shiny-verse:4.2.2
+RUN install2.r --error --skipinstalled \
+    renv
+WORKDIR /srv/shiny-server/ed/
+COPY --chown=shiny:shiny ./src/shiny/ .
+COPY deploy.R deploy.R
+COPY renv_no_tidy.lock renv.lock
+ENV RENV_PATHS_LIBRARY renv/library
+RUN R -e "renv::restore()"
+CMD Rscript deploy.R
