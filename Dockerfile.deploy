@@ -1,0 +1,17 @@
+FROM rocker/shiny-verse:4.2.2
+RUN install2.r --error --skipinstalled \
+    ggplot2         \
+    htmltools       \
+    shinyjs         \
+    shinydashboard  \
+    shinyBS         \
+    stringi         \
+    DT              \
+    glue            \
+    rjson           \
+    markdown        \
+    rsconnect
+COPY --chown=shiny:shiny ./src/shiny/ /srv/shiny-server/ed/
+USER shiny
+COPY deploy.R /srv/shiny-server/deploy.R
+CMD Rscript /srv/shiny-server/deploy.R

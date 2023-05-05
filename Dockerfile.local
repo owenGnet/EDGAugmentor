@@ -1,0 +1,18 @@
+FROM rocker/shiny-verse:4.2.2
+# shiny-verse = don't need to install any tidyverse libraries
+RUN install2.r --error --skipinstalled \
+    ggplot2         \
+    htmltools       \
+    shinyjs         \
+    shinydashboard  \
+    shinyBS         \
+    stringi         \
+    DT              \
+    glue            \
+    rjson           \
+    markdown        \
+    rsconnect
+COPY --chown=shiny:shiny ./src/shiny/ /srv/shiny-server/ed/
+USER shiny
+EXPOSE 3838
+CMD ["R", "-e", "shiny::runApp('/srv/shiny-server/ed/', host = '0.0.0.0', port = 3838)"]
