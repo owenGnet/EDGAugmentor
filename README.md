@@ -29,7 +29,32 @@ With all of above text pre-processing in place the sample set of 10-k are availa
 Additionally, two of the Items have the option of highlighting certain text, activated by choosing to "&#9745; Show marked" and then ensuring one or more of the displayed categories are checked:
 * Item 1 optionally highlights ESG related keywords
 * Item 7 optionally highlights entities belonging to one of the standard types identified by spaCy's NER pipeline 
+</br>
+</br>
+---
 
+### LLM arrives
+Why try to read through pages and pages of dense financial prose when ChatGPT can condense the key details in clear
+and succinct wording? Here you have how one insightful summary begins:
+> 	Well, it turns out that our regulatory nightmare is just the tip of the iceberg. 
+
+</br>
+
+June, 2023 finds the project hungry for more NLP, this time in the form of large language models. Happily there is a
+thing known as ChatGPT, with a straightforward API provided by OpenAI. Just as importantly `langchain` is on the scene - 
+exponential backoff you say? Let `langchain` deal with that me say. After ~~extenstive testing and evaluation of 
+respective outputs~~ checking the per-token 
+costs of the various LLM models available through the OpenAPI, `gpt-3.5-turbo` was selected. Take some Item 1 raw
+text, push into `load_summarize_chain()` along with prompts requesting either a basic summary or one in
+"snarky style" (whilst using great restraint to not also ask for a "very snarky style" summary), dross is expunged and only gold remains. Add a smidge of spaCy to break up any longer text blobs into chunks of sentences and the new update
+is ready.  
+</br>
+
+#### *Coming unsoon*
+ Maybe some ideas from recent University of Chicago [Bloated Disclosures: Can ChatGPT Help Investors Process Information?](https://bfi.uchicago.edu/working-paper/bloated-disclosures-can-chatgpt-help-investors-process-information/) paper. Maybe live Q&A on the MD&A section text.
+
+
+</br>
 </br>
 &#8224; turns out default spaCy models, e.g. `en_core_web_md` , do NOT produce very good NER results when passed typical 10-k text, who knew there were so many `Work Of Art`s referenced there :). A better model is on the future-thing list.  
 

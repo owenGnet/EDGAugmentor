@@ -126,10 +126,11 @@ shinyServer(function(input, output, session) {
         )
     })
 
-    observeEvent(input$show_marked_item, {
+    observeEvent(input$item_display_choice, {
         req(tenks_curr_idx())
         #shinyjs::toggle("ner_element_group")
-        handle_element_showage(rv_iframe_src(), show_marked = input$show_marked_item)
+        show_marked <- if (input$item_display_choice == "marked") TRUE else FALSE
+        handle_element_showage(rv_iframe_src(), show_marked = show_marked)
     })
 
     output$entity_type_defs_table <- renderDT(
@@ -183,8 +184,8 @@ shinyServer(function(input, output, session) {
     observeEvent(c(input$item_table_rows_selected,
                     input$checkGroupEntities,
                     input$checkGroupEsg,
-                    input$show_marked_item), {
-        if (input$show_marked_item == TRUE && str_detect(rv_iframe_src(), "_marked")) {
+                    input$item_display_choice), {
+        if (input$item_display_choice == "marked" && str_detect(rv_iframe_src(), "_marked")) {
 
             if (str_detect(rv_iframe_src(), "_item7_")) {
                 available_choices <- entity_type_choices
@@ -215,11 +216,11 @@ shinyServer(function(input, output, session) {
             rv_checked_types(check_group)
          }
     })
-    
+
     observe({
         showNotification(glue("{input$updateHighlightMsg}"), type = "message", duration = 3, id = "highlightMsg")
     })
-
+    
     handle_element_showage <- function(iframe_src, show_marked) {
         if (show_marked) {
             if (str_detect(iframe_src, "_item1_")) {
@@ -251,13 +252,48 @@ shinyServer(function(input, output, session) {
         item_full_path <- file.path(getwd(), "www", item_file_src)
 
         if (file.exists(item_full_path)) {
-            shinyjs::show("show_marked_item")
-            if (input$show_marked_item == TRUE) {
+            shinyjs::disable(selector = ".radio-inline:has(input[value='summary'])" )
+            default_summary_file_name = stringr::str_replace(item_file_name, "_marked.html", "_default.txt")
+            snarky_summary_file_name = stringr::str_replace(item_file_name, "_marked.html", "_snarky.txt")
+            item_summary_default_src  <- file.path("item_summary", default_summary_file_name)
+            item_summary_snarky_src  <- file.path("item_summary", snarky_summary_file_name)
+
+            item_summ_default_full_path <- file.path(getwd(), "www", item_summary_default_src)
+            item_summ_snarky_full_path <- file.path(getwd(), "www", item_summary_snarky_src)
+            must_change_seleced <- FALSE
+            if (file.exists(item_summ_default_full_path)) {
+                shinyjs::enable(selector = ".radio-inline:has(input[value='summary'])" )
+            } else {
+                shinyjs::disable(selector = ".radio-inline:has(input[value='summary'])" )
+                if (input$item_display_choice == "summary") must_change_seleced <- TRUE
+            }
+            if (file.exists(item_summ_snarky_full_path)) {
+                shinyjs::enable(selector = ".radio-inline:has(input[value='snarky'])" )
+            } else {
+                shinyjs::disable(selector = ".radio-inline:has(input[value='snarky'])" )
+                if (input$item_display_choice == "snarky") must_change_seleced <- TRUE
+            }
+            if (must_change_seleced) {
+                updateRadioButtons(session, "item_display_choice", selected="orig")
+            }
+
+          shinyjs::show("item_text_type_group")
+          if (input$item_display_choice == "marked") {
                 handle_element_showage(item_file_src, show_marked = TRUE)
                 iframe_src <- item_file_src
+            } else {
+                handle_element_showage(item_file_src, show_marked = FALSE)
+                if(input$item_display_choice == "orig") {
+                    # anything to do?
+                } else if (input$item_display_choice == "summary") {
+                    iframe_src <- item_summary_default_src
+
+                } else if (input$item_display_choice == "snarky") {
+                    iframe_src <- item_summary_snarky_src
+                }
             }
         } else {
-            shinyjs::hide("show_marked_item")
+            shinyjs::hide("item_text_type_group")            
             handle_element_showage(item_file_src, show_marked = FALSE)
         }
 

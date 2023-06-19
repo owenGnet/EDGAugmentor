@@ -15,5 +15,12 @@ Additionally, two of the Items have the option of highlighting certain text, act
 * Item 1 optionally highlights ESG related keywords
 * Item 7 optionally highlights entities belonging to one of the standard types identified by spaCy's NER pipeline 
 
+### June, 2023: LLM arrives
+Why try to read through pages and pages of dense financial prose when ChatGPT can condense the key details in clear
+and succinct wording? Here you have how one insightful summary begins:
+> 	Well, it turns out that our regulatory nightmare is just the tip of the iceberg. 
+
+Select Item 1 to check out the new ChatGPT-generated summaries, main **README** for background info.
+
 </br>
 &#8224; turns out default spaCy models, e.g. `en_core_web_md` , do NOT produce very good NER results when passed typical 10-k text, who knew there were so many `Work Of Art`s referenced there :). A better model is on the future-thing list.  
