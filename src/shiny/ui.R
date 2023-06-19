@@ -23,12 +23,16 @@ ui <- fluidPage(
         tags$link(rel = "shortcut icon", href = "http://www.oweng.net/EDGAugmentor/favicon.ico")
       ),
       fluidRow(
-        column(12, h4(span("NOTE: augmented text available for:"),
-          span("id" = "item1_note", "Item 1 +"), span("id" = "item7_note", "Item 7"))
-        ),
-        bsTooltip(id = "item1_note", title = "ESG keyword highlighting", placement = "top", trigger = "hover",
+        column(12, h4(span("NOTE: augmented text available for:"), 
+          span("id" = "item1_aug_note", class = "item_note", "Item 1"), span(" + "),
+          span("id" = "item7_aug_note", class = "item_note", "Item 7"), span(", ChatGPT summary text in different "),
+          span("id" = "item_flavors_note", class = "item_note", "flavors"), span(" for Item 1"))
+      ),
+        bsTooltip(id = "item1_aug_note", title = "ESG keyword highlighting", placement = "top", trigger = "hover",
                   options = NULL),
-        bsTooltip(id = "item7_note", title = "named entity highlighting", placement = "top", trigger = "hover",
+        bsTooltip(id = "item7_aug_note", title = "named entity highlighting", placement = "top", trigger = "hover",
+                  options = NULL),
+        bsTooltip(id = "item_flavors_note", title = "choice of default or snarky", placement = "top", trigger = "hover",
                   options = NULL)
         # debug: column(9, verbatimTextOutput("selected_tenk")),
         # column(3, actionButton("breaker", "add breaker") )
@@ -39,7 +43,14 @@ ui <- fluidPage(
     ),
     fluidRow(
         shinyjs::hidden(
-            checkboxInput("show_marked_item", "Show marked version of Item", value = FALSE),
+            tags$div(id = "item_text_type_group",
+             radioButtons("item_display_choice", "Section text",
+                          c("original" = "orig",
+                            "marked terms" = "marked",
+                            "summary" = "summary",
+                            "snarky summary" = "snarky"),
+                            inline=TRUE),
+           ),
             tags$div(id = "ner_element_group",
                 bsCollapse(id = "entity_type_summary",
                     bsCollapsePanel(">> Possible entity types", DTOutput("entity_type_defs_table"),
