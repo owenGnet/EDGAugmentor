@@ -1,3 +1,12 @@
+<p>
+    <i class="fa fa-github" aria-hidden="true" style="color:#006dad;width:20px;"></i>
+    <a href="https://github.com/owenGnet/EDGAugmentor">Repository</a>
+</p>
+<p color:#006dad;font-weight:600;>
+    <i class="fa fa-star" aria-hidden="true"  style="color:#006dad;width:20px;"></i>
+    <a href="https://github.com/owenGnet/EDGAugmentor/stargazers"><strong style="font-weight:600;">Stars:</strong> NaN</a>
+</p>
+
 # About
 
 Project began with the idea of doing 'NLP stuff' based on text from specific Items within 10-k filings. Which rather quickly brought up the issue of identifying the begin/end of each Item and extracting relevant text. Which rather slowly led to many iterations of regex experimentations coinciding with the idea of keeping the relatively pretty HTML formatting (and charts, tables etc.) of a given 10-k while also doing 'NLP stuff' on the underlying text as opportunity presented. That seemed to mostly work but was difficult to QA, i.e. to know that a given extraction had correctly identified the full text for that Item. Highlighting the sections via CSS worked well enough on one-off situations but it seemed something more app-like would be helpful, and so was born the Shiny/R web app now known as `EDGAugmentor`. At this point in time EDGAugmentor's theoretical first-purpose is to help in the human review of 10-k filed with the SEC.
@@ -20,7 +29,7 @@ Why try to read through pages and pages of dense financial prose when ChatGPT ca
 and succinct wording? Here you have how one insightful summary begins:
 > 	Well, it turns out that our regulatory nightmare is just the tip of the iceberg. 
 
-Select Item 1 to check out the new ChatGPT-generated summaries, main **README** for background info.
+Select Item 1 to check out the new ChatGPT-generated summaries, see [repo README](https://github.com/owenGnet/EDGAugmentor) for background info.
 
 </br>
 &#8224; turns out default spaCy models, e.g. `en_core_web_md` , do NOT produce very good NER results when passed typical 10-k text, who knew there were so many `Work Of Art`s referenced there :). A better model is on the future-thing list.  
