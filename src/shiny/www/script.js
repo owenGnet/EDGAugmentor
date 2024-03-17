@@ -26,6 +26,20 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+$(document).on("shiny:sessioninitialized", function(event) {
+  const max_char_count = 250;
+  let query_char_count = document.getElementById("query_char_count");
+  query_char_count.textContent = `${max_char_count}/${max_char_count}`;
+  let query_text = document.getElementById("query_text");
+  query_text.maxLength = max_char_count;
+
+  const countCharacters = () => {
+    let remaining_char_count = max_char_count - query_text.value.length;
+    query_char_count.textContent = `${remaining_char_count}/${max_char_count}`;
+  };
+  query_text.addEventListener("keyup", countCharacters);
+});
+
 /**
  * params arg with three required attributes
  * @param {string} data_value - possible data-entity value, e.g. "org" or "date"

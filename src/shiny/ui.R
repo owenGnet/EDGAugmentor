@@ -48,7 +48,8 @@ ui <- fluidPage(
                           c("original" = "orig",
                             "marked terms" = "marked",
                             "summary" = "summary",
-                            "snarky summary" = "snarky"),
+                            "snarky summary" = "snarky",
+                            "query" = "query_llm"),
                             inline=TRUE),
            ),
             tags$div(id = "ner_element_group",
@@ -82,6 +83,17 @@ ui <- fluidPage(
                     inline = TRUE,
                     selected = unname(unlist(esg_type_choices))
                 )
+            ),
+            tags$div(id = "query_llm_group",
+                tags$div(id = "query_box_group",
+                    textAreaInput("query_text", "Query current Item:", 
+                        placeholder = "What is the airspeed velocity...",
+                        width = "100%", 
+                        resize="vertical"),
+                    span("id" = "query_char_count", "chars-remaining/mzx-chars"),
+                ),
+                actionButton("send_query", "Ask", icon = icon("fa-solid fa-comment-dots"), class = "button_invoke"),
+                uiOutput("llm_response")
             )
         )
     ),

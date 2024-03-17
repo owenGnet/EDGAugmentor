@@ -148,6 +148,40 @@ table.expando_address tr {
   margin-left: 10px;
 }
 
+#query_llm_group {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 80%;
+}
+#query_box_group {
+  display: flex;
+  flex-direction: column;
+}
+#query_box_group > div.form-group {
+  margin-bottom: 0px;
+}
+#query_text {
+  background-color: whitesmoke;
+}
+#query_char_count {
+  margin-left: auto;
+  margin-right: 0;
+}
+.button_invoke {
+  background-color: #75a1ff;
+  color:aliceblue;
+  font-size: 120%;
+  border-radius: 10px;
+  border-width: thin;
+  width: 10%;
+}
+.button_invoke tr:hover {
+  background-color: #e4eaf7;
+}
+#llm_response {
+  background-color: yellow;
+}
+
 iframe.iffy {
   height: 80vh;
   width: 100%;

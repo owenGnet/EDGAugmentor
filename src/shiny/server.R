@@ -130,7 +130,8 @@ shinyServer(function(input, output, session) {
         req(tenks_curr_idx())
         #shinyjs::toggle("ner_element_group")
         show_marked <- if (input$item_display_choice == "marked") TRUE else FALSE
-        handle_element_showage(rv_iframe_src(), show_marked = show_marked)
+        show_query <- if (input$item_display_choice == "query_llm") TRUE else FALSE
+        handle_element_showage(rv_iframe_src(), show_marked = show_marked, show_query = show_query)
     })
 
     output$entity_type_defs_table <- renderDT(
@@ -173,6 +174,11 @@ shinyServer(function(input, output, session) {
         updateCheckboxGroupInput(session, "checkGroupEsg", NULL, choices = esg_type_choices, inline = TRUE,
                                  selected = NULL)
     })
+
+    output$llm_response <- renderUI({
+        response <- get_llm_query_response()
+        return(response)
+    }) %>% bindEvent(input$send_query)
 
     update_highlight <- Vectorize(function(data_value, data_type, num_changes = 0) {
         js$updateHighlight(data_value = data_value,
@@ -221,19 +227,38 @@ shinyServer(function(input, output, session) {
         showNotification(glue("{input$updateHighlightMsg}"), type = "message", duration = 3, id = "highlightMsg")
     })
     
-    handle_element_showage <- function(iframe_src, show_marked) {
+    handle_element_showage <- function(iframe_src, show_marked, show_query) {
         if (show_marked) {
             if (str_detect(iframe_src, "_item1_")) {
+                shinyjs::hide("query_llm_group")
                 shinyjs::hide("ner_element_group")
                 shinyjs::show("esg_element_group")
             } else {
+                shinyjs::hide("query_llm_group")
                 shinyjs::hide("esg_element_group")
                 shinyjs::show("ner_element_group")
             }
+        } else if (show_query) {
+            shinyjs::hide("ner_element_group")
+            shinyjs::hide("esg_element_group")
+            shinyjs::show("query_llm_group")
         } else {
             shinyjs::hide("ner_element_group")
             shinyjs::hide("esg_element_group")
+            shinyjs::hide("query_llm_group")
         }
+    }
+
+    get_llm_query_response <- function(){
+        # assuming "orig" rv_iframe_src, e.g. 10K_ASFI-20191220_aug.html#edgaug_item7_id -> 10K_ASFI-20191220_7
+        groups <- stringr::str_match(rv_iframe_src(), "^tenk\\/(10K_.*_)aug.html#edgaug_item(\\d)_id")
+        pinecone_namespace <- glue("{groups[2]}{groups[3]}")
+
+        dummy_response <- markdown(glue("
+            ## query to send over to namespace = {pinecone_namespace}:
+            > {input$query_text}
+        "))
+        return(dummy_response)
     }
 
     output$showfile <- renderUI({
@@ -279,10 +304,12 @@ shinyServer(function(input, output, session) {
 
           shinyjs::show("item_text_type_group")
           if (input$item_display_choice == "marked") {
-                handle_element_showage(item_file_src, show_marked = TRUE)
+                handle_element_showage(item_file_src, show_marked = TRUE, show_query = FALSE)
                 iframe_src <- item_file_src
+            } else if (input$item_display_choice == "query_llm") {
+                handle_element_showage(item_file_src, show_marked = FALSE, show_query = TRUE)
             } else {
-                handle_element_showage(item_file_src, show_marked = FALSE)
+                handle_element_showage(item_file_src, show_marked = FALSE, show_query = FALSE)
                 if(input$item_display_choice == "orig") {
                     # anything to do?
                 } else if (input$item_display_choice == "summary") {
@@ -294,7 +321,7 @@ shinyServer(function(input, output, session) {
             }
         } else {
             shinyjs::hide("item_text_type_group")            
-            handle_element_showage(item_file_src, show_marked = FALSE)
+            handle_element_showage(item_file_src, show_marked = FALSE, show_query = FALSE)
         }
 
         out <- tags$iframe(
